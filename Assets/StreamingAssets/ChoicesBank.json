@@ -1,0 +1,32 @@
+{
+    "opcion": "",
+    "enunciado": "",
+    "opciones": [
+        {
+            "opcion": "",
+            "enunciado": "",
+            "opciones": [
+                {
+                    "opcion": "",
+                    "enunciado": "",
+                    "opciones": [ {} ],
+                    "esFinal": false
+                },
+                {
+                    "opcion": "",
+                    "enunciado": "",
+                    "opciones": [ {} ],
+                    "esFinal": false
+                }
+            ],
+            "esFinal": false
+        },
+        {
+            "opcion": "",
+            "enunciado": "",
+            "opciones": [ {} ],
+            "esFinal": false
+        }
+    ],
+    "esFinal": false
+}
