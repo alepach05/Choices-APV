@@ -1,30 +1,173 @@
 {
     "opcion": "",
-    "enunciado": "",
+    "enunciado": "Apareciste en el mundo supervivencia de Minecraft de noche... Que es lo primero que haces?",
     "opciones": [
         {
-            "opcion": "",
-            "enunciado": "",
+            "opcion": "Talar los arboles para obtener madera",
+            "enunciado": "Tienes la madera pero escuchas monstruos cerca...",
             "opciones": [
                 {
-                    "opcion": "",
-                    "enunciado": "",
-                    "opciones": [ {} ],
+                    "opcion": "Correr para huir de los monstruos",
+                    "enunciado": "Corres pero los monstruos te persiguen...",
+                    "opciones": [
+                        {
+                            "opcion": "Te lanzas al agua y te sumerges",
+                            "enunciado": "Lo lamento, los monstruos no se fueron y te quedaste sin oxigeno.",
+                            "opciones": [ {} ],
+                            "esFinal": true
+                        },
+                        {
+                            "opcion": "Sigues corriendo sin parar",
+                            "enunciado": "Logras escapar de los monstruos pero tienes hambre...",
+                            "opciones": [
+                                {
+                                    "opcion": "Empiezas a buscar comida y materiales",
+                                    "enunciado": "Tienes suficiente comida y materiales para sobrevivir...",
+                                    "opciones": [
+                                        {
+                                            "opcion": "Decides ir a minar a una cueva",
+                                            "enunciado": "Cavas profundamente y al final encuentras diamantes...",
+                                            "opciones": [
+                                                {
+                                                    "opcion": "Creas una mesa de encantamientos",
+                                                    "enunciado": "Lo lamento, un creeper te exploto en la espalda.",
+                                                    "opciones": [ {} ],
+                                                    "esFinal": true
+                                                },
+                                                {
+                                                    "opcion": "Te creas tu armadura y espada de diamante",
+                                                    "enunciado": "Con tu armadura, buscas libros y la encantas...",
+                                                    "opciones": [
+                                                        {
+                                                            "opcion": "Buscas La Fortaleza y entras al End",
+                                                            "enunciado": "Felicidades, lograste matar al Enderdragon y pasar el juego.",
+                                                            "opciones": [ {} ],
+                                                            "esFinal": true
+                                                        },
+                                                        {
+                                                            "opcion": "Decides ir al Nether",
+                                                            "enunciado": "Lo lamento, caiste en lava y perdiste todo.",
+                                                            "opciones": [ {} ],
+                                                            "esFinal": true
+                                                        }
+                                                    ],
+                                                    "esFinal": false
+                                                }
+                                            ],
+                                            "esFinal": false
+                                        },
+                                        {
+                                            "opcion": "Empiezas a construir tu casa",
+                                            "enunciado": "Felicidades, tienes de todo para sobrevivir y explorar el mundo.",
+                                            "opciones": [ {} ],
+                                            "esFinal": true
+                                        }
+                                    ],
+                                    "esFinal": false
+                                },
+                                {
+                                    "opcion": "Sigues corriendo sin parar",
+                                    "enunciado": "Lo lamento, no te fijaste y caiste de un lugar alto con poca vida.",
+                                    "opciones": [ {} ],
+                                    "esFinal": true
+                                }
+                            ],
+                            "esFinal": false
+                        }
+                    ],
                     "esFinal": false
                 },
                 {
-                    "opcion": "",
-                    "enunciado": "",
-                    "opciones": [ {} ],
+                    "opcion": "Crear una mesa de crafteo y una espada",
+                    "enunciado": "Haces una espada de madera, y vas a matar a los monstruos...",
+                    "opciones": [
+                        {
+                            "opcion": "Atacas a los esqueletos primero",
+                            "enunciado": "Lo lamento, no tenias escudo y no pudiste protegerte de las flechas.",
+                            "opciones": [ {} ],
+                            "esFinal": true
+                        },
+                        {
+                            "opcion": "Atacas a los zombies primero",
+                            "enunciado": "Logras matar a todos los zombies y ganas experiencia...",
+                            "opciones": [ {} ],
+                            "esFinal": true
+                        }
+                    ],
                     "esFinal": false
                 }
             ],
             "esFinal": false
         },
         {
-            "opcion": "",
-            "enunciado": "",
-            "opciones": [ {} ],
+            "opcion": "Cavar un hoyo para esconderte y pasar la noche",
+            "enunciado": "Pasaste toda la noche escondido en el hoyo...",
+            "opciones": [
+                {
+                    "opcion": "Subes y recolectas materiales",
+                    "enunciado": "Tienes todo para contruir tu casa pero empiezas a morir de hambre...",
+                    "opciones": [
+                        {
+                            "opcion": "Corres a buscar comida",
+                            "enunciado": "Felicidades, tienes de todo para sobrevivir, ahora puedes empezar a construir tu casa.",
+                            "opciones": [ {} ],
+                            "esFinal": true
+                        },
+                        {
+                            "opcion": "Empiezas a construir tu casa",
+                            "enunciado": "Lo lamento, pudiste terminar tu casa pero moriste de hambre.",
+                            "opciones": [ {} ],
+                            "esFinal": true
+                        }
+                    ],
+                    "esFinal": false
+                },
+                {
+                    "opcion": "Subes y recolectas comida",
+                    "enunciado": "Tienes suficiente comida para sobrevivir...",
+                    "opciones": [
+                        {
+                            "opcion": "Buscas materiales para hacer herramientas",
+                            "enunciado": "Felicidades, tienes de todo para sobrevivir, ahora puedes empezar a construir tu casa.",
+                            "opciones": [ {} ],
+                            "esFinal": true
+                        },
+                        {
+                            "opcion": "Decides ir a explorar el mundo",
+                            "enunciado": "Encuentras La Fortaleza al End...",
+                            "opciones": [
+                                {
+                                    "opcion": "Entras a La Fortaleza",
+                                    "enunciado": "Lo lamento, un enjambre sin control de lepismas te mataron.",
+                                    "opciones": [ {} ],
+                                    "esFinal": true
+                                },
+                                {
+                                    "opcion": "Continuas explorando y obtenendo materiales",
+                                    "enunciado": "Encontraste diamantes y perlas para entrar al End...",
+                                    "opciones": [
+                                        {
+                                            "opcion": "Entras a La Fortaleza",
+                                            "enunciado": "Felicidades, lograste matar al Enderdragon y pasar el juego.",
+                                            "opciones": [ {} ],
+                                            "esFinal": true
+                                        },
+                                        {
+                                            "opcion": "Decides ir al Nether",
+                                            "enunciado": "Lo lamento, caiste en lava y perdiste todo.",
+                                            "opciones": [ {} ],
+                                            "esFinal": true
+                                        }
+                                    ],
+                                    "esFinal": false
+                                }
+                            ],
+                            "esFinal": false
+                        }
+                    ],
+                    "esFinal": false
+                }
+            ],
             "esFinal": false
         }
     ],
